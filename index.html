@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <form id="body">
+    <div id="heading">
+        <h1>Dice Roller</h1>
+        <label for="input">Enter the no of dice: </label>
+        <input id="input" type="number" value="5" min="1"> <br>
+        <label for="dice_type">Enter The Theme Of Dice : </label><br>
+        <input id="input_theme_1" type="radio" name="dice" value="1" checked="true"> 
+        <label for="input_theme_1" >Theme 1</label><br>
+        <input type="radio" id = "input_theme_2" name="dice" value="2">
+        <label for="input_theme_2">Theme 2</label>
+    </div>
+        <br>
+    <div id="sub">
+    <button id="submit">Submit</button>
+    </div>
+    <p id="result" onclick="get_values()">Please Enter</p>
+    <div id="images">
+    </div>
+    </form>
+<script src="dice_roll.js"></script>
+</body>
+</html>
