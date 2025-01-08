@@ -1,5 +1,5 @@
 body{
-    background-color: hsl(220, 87%, 9%);
+    background-color: hsl(4, 48%, 9%);
 }
 
 p,label{
@@ -8,20 +8,26 @@ p,label{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
-    margin: 10px 12px;
-    color: antiquewhite;
+    margin: 10px 0px;
+    color: #fff
 }
 
 #heading{
     text-align: center;
     font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-feature-settings: "aalt";
     font-size: 3rem;
-    color: antiquewhite;
+    font-weight: 700;
+    color: #ff7f50; 
+    margin-bottom: 20px;
+
 }
 input[type="radio"] {
-    transform: scale(1.5); /* Increase the size by 1.5 times */
+    transform: scale(1.5);
+    font-size: 1.5rem;
+    border: none;
+    text-align: center;
+    background-color: #4c4c4c;
+    color: #fff;
 }
 
 input{  
@@ -31,7 +37,7 @@ input{
     border: none;
     border-radius: 10px;
     margin: 1.2rem;
-    color: antiquewhite;
+    color: #e0e0e0;
     padding: 2%;
 
 }
@@ -59,12 +65,10 @@ button:active{
 }
 
 #images{
-    align-items: center;
     text-align: center;
 }
 
 img{
-    align-items: center;
     margin: 10px;
     padding: 10px;
     border-radius: 75px;
@@ -72,5 +76,5 @@ img{
 
 #result{
     font-size: 3rem;
-    color: antiquewhite;
+    color: #ffeb3b;
 }
